@@ -1,7 +1,6 @@
 package com.ashusingh;
 
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class MathUtilsTest {
@@ -12,6 +11,12 @@ class MathUtilsTest {
         int expected = 2;
         int actual = mathUtils.add(1,1);
         assertEquals(expected, actual, "Add method Failed");
+    }
+
+    @Test
+    void divide() {
+        MathUtils mathUtils = new MathUtils();
+        assertThrows(ArithmeticException.class, () -> mathUtils.divide(1,0), "Divide by zero should throw");
     }
 
     @Test
