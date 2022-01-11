@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ashusingh.MathUtilsTest" time="0.042" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ashusingh.MathUtilsTest" time="0.045" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\ashu.singh\.jdks\corretto-11.0.13\bin"/>
-    <property name="sun.java.command" value="C:\Users\ASHU~1.SIN\AppData\Local\Temp\surefire17621355633868029508\surefirebooter7049594012118177581.jar C:\Users\ashu.singh\AppData\Local\Temp\surefire17621355633868029508 2022-01-11T10-55-00_015-jvmRun1 surefire17101118451580674889tmp surefire_016689804714546832330tmp"/>
+    <property name="sun.java.command" value="C:\Users\ASHU~1.SIN\AppData\Local\Temp\surefire16215711670307395915\surefirebooter11606253584485086568.jar C:\Users\ashu.singh\AppData\Local\Temp\surefire16215711670307395915 2022-01-11T23-54-21_802-jvmRun1 surefire6040424588254419555tmp surefire_03486548747971888814tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ashu.singh\eclipse-workspace2\Junit-5-basics\target\test-classes;C:\Users\ashu.singh\eclipse-workspace2\Junit-5-basics\target\classes;C:\Users\ashu.singh\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\ashu.singh\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\ashu.singh\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\ashu.singh\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\ashu.singh\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\ashu.singh\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ASHU~1.SIN\AppData\Local\Temp\surefire17621355633868029508\surefirebooter7049594012118177581.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ASHU~1.SIN\AppData\Local\Temp\surefire16215711670307395915\surefirebooter11606253584485086568.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.13+8-LTS"/>
@@ -61,6 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="computeCircleArea" classname="com.ashusingh.MathUtilsTest" time="0.032"/>
-  <testcase name="test" classname="com.ashusingh.MathUtilsTest" time="0"/>
+  <testcase name="computeCircleArea" classname="com.ashusingh.MathUtilsTest" time="0.025"/>
+  <testcase name="divide" classname="com.ashusingh.MathUtilsTest" time="0.005"/>
+  <testcase name="test" classname="com.ashusingh.MathUtilsTest" time="0.002"/>
 </testsuite>
