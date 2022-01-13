@@ -1,9 +1,7 @@
 package com.ashusingh;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class MathUtilsTest {
@@ -15,12 +13,25 @@ class MathUtilsTest {
         mathUtils = new MathUtils();
     }
 
-    @Test
-    @DisplayName("Testing add method")
-    void test() {
-        int expected = 2;
-        int actual = mathUtils.add(1,1);
-        assertEquals(expected, actual, "Add method Failed");
+    @Nested
+    @DisplayName("Testing Add method")
+    class AddTest{
+
+        @Test
+        @DisplayName("Testing add method +")
+        void addTestPositive() {
+            int expected = 2;
+            int actual = mathUtils.add(1,1);
+            assertEquals(expected, actual);
+        }
+
+        @Test
+        @DisplayName("Testing add method -")
+        void addTestNegative() {
+            int expected = 2;
+            int actual = mathUtils.add(1,1);
+            assertEquals(expected, actual);
+        }
     }
 
     @Test
